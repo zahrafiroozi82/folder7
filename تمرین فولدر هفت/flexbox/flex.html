@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/flex.css" />
+    <meta charset="utf-8" />
+    <title>flex-box</title>
+    <style>
+              * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+      }
+      .hero {
+        background-color: rgb(0, 0, 0, 0.4);
+        color: white;
+        width: 100%;
+      }
+      .navbar {
+        display: flex;
+        padding-left: 10px;
+        height: 55px;
+      }
+      .menu {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        position: relative;
+        top: 10px;
+        left: 400px;
+        color: white;
+      }
+      .menu:hover {
+        font-size: large;
+      }
+      .content {
+        background-image: url(../img/bg.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        bottom: 5px;
+        height: 600px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        margin: auto;
+      }
+      .div1 {
+        position: relative;
+        top: 50%;
+      }
+      .Edge {
+        color: rgb(22, 51, 22);
+      }
+      .btn {
+        background-color: rgb(22, 51, 22);
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        border-color: rgb(22, 51, 22);
+      }
+      .icon {
+        display: flex;
+        justify-content: space-around;
+      }
+      .icon1 {
+        width: 400px;
+        height: 150px;
+        text-align: center;
+      }
+      .icon2 {
+        width: 50%;
+        height: 350px;
+        background-image: url(../img/a.webp);
+      }
+      .icon3 {
+        width: 50%;
+        height: 350px;
+        background-color: green;
+        color: white;
+        padding: 40px;
+      }
+      .btn1 {
+        background-color: green;
+        color: white;
+        border-color: white;
+        text-decoration: none;
+        padding: 5px;
+      }
+      .icon4 {
+        position: relative;
+        top: 45px;
+      }
+      .img1 {
+        width: 330px;
+        height: 300px;
+      }
+      .cases img:hover {
+        opacity: 0.3;
+      }
+      .section-header {
+        text-align: center;
+        padding: 20px;
+      }
+      .row {
+        display: flex;
+        padding: 10px;
+      }
+      .blu {
+        width: 50%;
+        height: 350px;
+        background-image: url(../img/11.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .miz {
+        height: 350px;
+        width: 50%;
+        color: white;
+        background-color: rgb(80, 80, 245);
+        padding: 40px;
+      }
+      .btn2 {
+        background-color: rgb(80, 80, 245);
+        color: white;
+        border-color: white;
+        text-decoration: none;
+        padding: 5px;
+      }
+      .member {
+        width: 420px;
+        height: 350px;
+        border: none;
+        border-radius: 70%;
+      }
+      .who-are {
+        display: flex;
+        justify-content: space-around;
+      }
+      .form {
+        display: flex;
+        justify-content: space-around;
+      }
+      .form1 {
+        background-image: url(../img/15.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 350px;
+      }
+      .form2 {
+        background-color: rgb(211, 210, 210);
+        width: 50%;
+        height: 350px;
+        padding: 30px;
+      }
+      .al {
+        padding: 30px;
+        position: relative;
+        top: 30px;
+      }
+      input {
+        width: 100%;
+        height: 25px;
+        border: none;
+        padding: 10px;
+      }
+      .submit {
+        background-color: green;
+        color: white;
+        border: none;
+        height: 30px;
+        width: 100%;
+      }
+      .finish {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(37, 34, 34);
+        color: white;
+      }
+      .fi {
+        text-align: center;
+        position: relative;
+        top: 45px;
+      }
+      s
+    </style>
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <div class="navbar">
+        <h1 class="logo"><span class="Edge">Edge</span> ledger</h1>
+        <nav>
+          <ul class="menu">
+            <li><a href="#home" class="menu">Home</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="#about" class="menu">About</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="#cases" class="menu">Cases</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="#blog" class="menu">Blog</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="#contact" class="menu">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <div class="div1">
+          <h1>The sky is the limit</h1>
+          <br />
+          <p>We provide world class financial assistance</p>
+          <br />
+          <button class="btn">
+            <a href="#about" class="btn">read more</a>
+          </button>
+        </div>
+      </div>
+    </header>
+    <br />
+    <br />
+    <br />
+    <section class="icon">
+      <div class="icon1">
+        <h4>investment banking</h4>
+        <br />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum fugia.
+        </p>
+      </div>
+      <div class="icon1">
+        <h4>protfolio management</h4>
+        <br />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum fugia.
+        </p>
+      </div>
+      <div class="icon1">
+        <h4>tex & custodial</h4>
+        <br />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum fugia.
+        </p>
+      </div>
+    </section>
+    <section class="icon">
+      <div class="icon2"></div>
+      <div class="icon3">
+        <div class="icon4">
+          <h5>what you are looking for</h5>
+          <br />
+          <h3>we provide bespoke solotions</h3>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius natus
+            aspernatur, ratione.Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Eius natus aspernatur, ratione.
+          </p>
+          <br />
+          <button class="btn1">
+            <a href="#about" class="btn1">read more</a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="cases" class="cases"></section>
+    <header class="section-header">
+      <h4>this is what we do</h4>
+      <br />
+      <h2>business cases</h2>
+      <br />
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui laborum
+        veniam harum fugit perferendis.
+      </p>
+    </header>
+    <div class="row">
+      <div class="column">
+        <img src="../img/a1.jfif" alt="" class="img1" />
+        <img src="../img/a2.jfif" alt="" class="img1" />
+      </div>
+      <div class="column">
+        <img src="../img/a3.jfif" alt="" class="img1" />
+        <img src="../img/a4.jfif" alt="" class="img1" />
+      </div>
+      <div class="column">
+        <img src="../img/a5.jfif" alt="" class="img1" />
+        <img src="../img/a6.jfif" alt="" class="img1" />
+      </div>
+      <div class="column">
+        <img src="../img/a7.jfif" alt="" class="img1" />
+        <img src="../img/a8.jfif" alt="" class="img1" />
+      </div>
+    </div>
+    <section class="icon">
+      <div class="miz">
+        <div class="blog">
+          <h5>April 16 2020</h5>
+          <br />
+          <h3>Blog post one</h3>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius natus
+            aspernatur, ratione.Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Eius natus aspernatur, ratione.
+          </p>
+          <br />
+          <button class="btn2">
+            <a href="" class="btn2">read our blog</a>
+          </button>
+        </div>
+      </div>
+      <div class="blu"></div>
+    </section>
+    <header class="section-header" id="about">
+      <h4>who we are</h4>
+      <br />
+      <h2>our professional team</h2>
+      <br />
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui laborum
+        veniam harum fugit perferendis.
+      </p>
+    </header>
+    <section class="who-are">
+      <img src="../img/14.jpg" alt="" class="member" />
+      <img src="../img/13.jpg" alt="" class="member" />
+      <img src="../img/12.jfif" alt="" class="member" />
+    </section>
+    <br />
+    <br />
+    <section class="form" id="contact">
+      <div class="form1"></div>
+      <div class="form2">
+        <div class="al">
+          <h2>Request Callback</h2>
+          <br />
+          <form action="">
+            <input type="text" placeholder="Enter name" />
+            <br />
+            <br />
+            <input type="email" placeholder="Enter email" />
+            <br />
+            <br />
+            <input type="text" placeholder="Enter phone" />
+            <br />
+            <br />
+            <button class="submit">send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="finish">
+      <div class="fi"><h3>copyright 2020 - edgeledger</h3></div>
+    </footer>
+  </body>
+</html>
